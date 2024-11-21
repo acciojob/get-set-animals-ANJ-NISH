@@ -26,9 +26,9 @@ class Dog extends Animal {
 	{
 		super(species);
 	}
-	purr()
+	bark()
 	{
-		console.log("purr");
+		console.log("woof");
 	}
 }
 
@@ -37,9 +37,9 @@ class Cat extends Animal {
 	{
 		super(species);
 	}
-    bark()
+    purr()
 	{
-	  console.log("woof");
+	  console.log("purr");
 	}
 }
 
